@@ -29,7 +29,7 @@ const Hero: React.FC<Props> = () => {
                   </div>
 
                   <div>
-                    <p>Available on the </p>
+                    <p className='text-[.6rem] font-[400]'>Available on the </p>
                     <h1>Apple Store</h1></div>
                 </Button>
               </Link>
@@ -40,8 +40,8 @@ const Hero: React.FC<Props> = () => {
                   </div>
 
                   <div>
-                    <p>Available on the </p>
-                    <h1>Apple Store</h1>
+                    <p className='text-[.6rem] font-[400]'>Get It On  </p>
+                    <h1>Google Play</h1>
                   </div>
                 </Button>
               </Link>

@@ -44,8 +44,8 @@ const Navbar = () => {
 </DropdownMenu>
 
 <div className='  hidden lg:inline'>
-<Link to=''> <Button className=' lg:mt-5 bg-[#F37172]' variant="outline">Sign up</Button> </Link>
-<Link to=''> <Button className=' lg:mt-5 bg-[#F37172]' variant="outline">Log in</Button> </Link>
+<Link to=''> <Button className=' lg:mt-5 text-white font-semibold bg-[#F37172]' variant="outline">Sign up</Button> </Link>
+<Link to=''> <Button className=' lg:mt-5 text-white font-semibold bg-[#F37172]' variant="outline">Log in</Button> </Link>
 
 </div>
 
