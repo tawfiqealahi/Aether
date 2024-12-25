@@ -13,9 +13,10 @@ import { MdOutlineSegment } from "react-icons/md";
 
 
 
+
 const Navbar = () => {
   return (
-    <div className='text-center flex  mt-2  justify-between'>
+    <div className='text-center flex   mt-2  justify-between'>
       <div>
         <Link to='/'>
           <h1 className='text-2xl lg:text-5xl font-bold'>aether
@@ -43,8 +44,8 @@ const Navbar = () => {
 </DropdownMenu>
 
 <div className='  hidden lg:inline'>
-<Link to=''> <Button className=' bg-[#F37172]' variant="outline">Sign up</Button> </Link>
-<Link to=''> <Button className=' bg-[#F37172]' variant="outline">Log in</Button> </Link>
+<Link to=''> <Button className=' lg:mt-5 bg-[#F37172]' variant="outline">Sign up</Button> </Link>
+<Link to=''> <Button className=' lg:mt-5 bg-[#F37172]' variant="outline">Log in</Button> </Link>
 
 </div>
 
