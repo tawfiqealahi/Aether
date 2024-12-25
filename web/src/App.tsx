@@ -1,13 +1,16 @@
-import { Button } from "@/components/ui/button"
-
+// import LandingPage from './components/LandingPage/LandingPage'
 
 
 function App() {
 
   return (
-   <>
-   <Button>click me</Button>
-   </>
+    <>
+    
+    </>
+//    <div className='md:max-w-screen-96 font-[Montserrat
+// ] text-center'>
+//       <LandingPage></LandingPage>
+//    </div>
   )
 }
 
