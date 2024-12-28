@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className='text-center flex   mt-2  justify-between'>
       <div>
         <Link to='/'>
-          <h1 className='text-2xl lg:text-5xl font-bold'>aether
+          <h1 className='text-2xl lg:text-5xl font-bold font-[Poppins]'>aether
             <span className='text-[#F37172]'>.</span>
           </h1>
         </Link>
