@@ -3,6 +3,17 @@ export default {
     darkMode: ["class"],
     content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
   theme: {
+	animation: {
+        'slide-in-left': 'slide-in-left 0.4s ease-out',
+      },
+      keyframes: {
+        'slide-in-left': {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(0)' },
+        },
+      },
+
+	  
   	extend: {
   		borderRadius: {
   			lg: 'var(--radius)',
